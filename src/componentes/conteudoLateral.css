@@ -1,4 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.conteudoLateral {
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: 100vh;
+    
+}
+
 .Logo {
+    margin: 10px;
     max-width: 50px;
     max-height: 50px;
+}
+
+.navagationButtons {
+    margin: 13px;
+}
+
+.navagationButtons li {
+    font-size: 25px;
+    padding: 10px;
 }
